@@ -53,4 +53,4 @@ http.createServer(function(request, response) {
       break;
   }
   response.end();
-}).listen(8080);
+}).listen(process.env.PORT || 8080);
